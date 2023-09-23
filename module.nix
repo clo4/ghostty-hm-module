@@ -88,12 +88,12 @@ in {
 
     shellIntegration = let
       defaultShellIntegration = {
-        default = cfg.shellIntegration.enabled;
+        default = cfg.shellIntegration.enable;
         defaultText =
-          literalExpression "config.programs.ghostty.shellIntegration.enabled";
+          literalExpression "config.programs.ghostty.shellIntegration.enable";
       };
     in {
-      enabled = mkOption {
+      enable = mkOption {
         type = types.bool;
         default = true;
         example = false;
@@ -181,7 +181,7 @@ in {
           # See https://github.com/mitchellh/ghostty
         ''
 
-        (optionalString cfg.shellIntegration.enabled ''
+        (optionalString cfg.shellIntegration.enable ''
           # Shell integration is sourced and configured manually
           shell-integration = none
         '')
