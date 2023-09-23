@@ -25,7 +25,8 @@ Use it as you would any other Nix flake input:
 }
 ```
 
-To use it with Home Manager as a nix-darwin or NixOS module, you can:
+If you're using home-manager as a NixOS or nix-darwin module, you can add this
+module by:
 
 - Import it in the place you're going to use it, by placing the module in the
   `imports` list
