@@ -124,7 +124,7 @@ strings, numbers, booleans, or a list of strings, numbers, and booleans.
       macos-option-as-alt = true;
 
       # Disables ligatures
-      font-feature = ["-liga" "-dlig"];
+      font-feature = ["-liga" "-dlig" "-calt"];
     };
   };
 }
