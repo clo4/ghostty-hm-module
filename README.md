@@ -168,6 +168,20 @@ which recently landed support for Ghostty themes.
 }
 ```
 
+### programs.ghostty.clearDefaultKeybindings
+
+Clears the default keybindings. This is useful when you want to add entirely custom
+keybindings without having to manually unbind everything yourself. This is a boolean
+option that defaults to false.
+
+```nix
+{
+  programs.ghostty = {
+    clearDefaultKeybindings = true;
+  }; 
+}
+```
+
 ### programs.ghostty.keybindings
 
 Keybindings is a map of modifiers and key to action.
