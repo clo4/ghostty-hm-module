@@ -31,7 +31,7 @@ module by:
 - Import it in the place you're going to use it, by placing the module in the
   `imports` list
 - Import the module for all Home Manager users by using
-  [`home-manager.sharedModules`](https://nix-community.github.io/home-manager/nixos-options.html#nixos-opt-home-manager.sharedModules)
+  [`home-manager.sharedModules`](https://nix-community.github.io/home-manager/nixos-options.xhtml#nixos-opt-home-manager.sharedModules)
 
 ## Documentation
 
