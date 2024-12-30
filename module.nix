@@ -169,7 +169,6 @@ in {
       # it if you're managing it externally, e.g. using the signed
       # macOS builds.
       nullable = true;
-      default = null;
     };
 
     extraConfig = mkOption {
