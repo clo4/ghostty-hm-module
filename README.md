@@ -1,5 +1,13 @@
 # Ghostty Home Manager module
 
+> [!IMPORTANT]
+> There is now a Home Manager module upstream. This repository will not be maintained. \
+> If you are currently using this in your configuration, you can remove it.
+
+---
+
+**Original description below**
+
 Until Ghostty is open source, the module can't be upstreamed to
 nix-community/home-manager, and can't be in a private repository, so it's going
 to live here until I can move it elsewhere.
